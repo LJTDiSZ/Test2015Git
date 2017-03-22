@@ -21,7 +21,7 @@ var
   serveStatic = require( 'serve-static' ),
   path = require( 'path' ),
 
-  routes = require( './routes' ),
+  routes = require( './lib/routes' ),
 
   app     = express(),
   server  = http.createServer( app );
